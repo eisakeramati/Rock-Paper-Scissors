@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="
+" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>R,P,S!</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="index.js"></script>
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Lobster&family=Ubuntu&display=swap" rel="stylesheet">
+  <!-- bootstrap and JS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="title">
+    <h1>The Rock, Paper, Scissors Game!</h1>
+    <p>A project for Learning Javascript and DOM.</p>
+  </div>
+  <div class="middle">
+    <div class="statement">
+      <h3>Choose your hand from the lest side.</h3>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col col2" id="col-one">
+          <div class="try2 tt">
+          </div>
+          <div class="try pad1 tt" id="1" style="float:left;" onmouseover="big(this)" onmouseout="small(this)">
+            <img src="h1.png" alt="" class="pic1" onclick="animation(this.parentElement)">
+          </div>
+          <div class="try pad2 tt" id="2" onmouseover="big(this)" onmouseout="small(this)">
+            <img src="h3.png" alt="" class="pic11" onclick="animation(this.parentElement)">
+          </div>
+          <div class="try2 tt">
+          </div>
+          <div class="image-down try tt" id="3" onmouseover="big(this)" onmouseout="small(this)">
+            <img src="h2.png" alt="" class="pic1" style="display:block;" onclick="animation(this.parentElement)">
+          </div>
+        </div>
+        <div class="col after fin" id="col-two">
+          <img src="hands2.png" alt="" class="pic-right">
+          <div class="load">
+            Loading...
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="res">
+    </div>
+  </div>
+  <div class="last">
+    <div class="container">
+      <div class="row">
+        <div class="col-9 parcol">
+          <div class="ins">
+            <h2 style="padding-bottom: 20px;">About:</h2>
+            <p>This webpage was develpoed by Eisa Keramatinejad as a beginner's project to Javascript and</p>
+            <p>Document Object model. I study Computer Science and I'm open to your upgrade ideas !</p>
+            <p>Shoot me an email at:</p>
+            <p>- <a href="mailto:eisa.keramati@gmail.com">eisa.keramati@gmail.com</a></p>
+            <p>- <a href="mailto:eisa.keramati@ryerson.ca">eisa.keramati@ryerson.ca</a></p>
+          </div>
+        </div>
+        <div class="col-3 imcol">
+          <a href="https://www.linkedin.com/in/eisa-keramati-nejad-08990516b/"><img src="l.png" alt="" class="img"></a>
+          <a href="https://github.com/eisakeramati"><img src="github.png" alt="" class="img2"></a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
