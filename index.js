@@ -156,6 +156,7 @@ function set4(inp1, inp2){
   bt.setAttribute("class", "btn btn-light");
   bt.setAttribute("onClick", "fin()");
   bt.appendChild(title);
+  temp[0].setAttribute("class", "fixx");
   setTimeout(function() {
     temp[0].appendChild(h2);
     temp[0].appendChild(bt);

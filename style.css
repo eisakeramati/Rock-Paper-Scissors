@@ -83,7 +83,7 @@ body {
     background-color: #1f4068;
     padding-bottom: 25px;
     text-align: center;
-    height: 700px;
+    height: 800px;
     padding-top: 100px;
 }
 
@@ -185,6 +185,7 @@ Button {
   padding: 50px;
   font-family: 'Hammersmith One', sans-serif;
   width: 200px;
+  padding-bottom: 200px;
 }
 
 .last {
@@ -200,6 +201,10 @@ Button {
   padding-top: 100px;
   width: 100px;
   display: block;
+}
+
+.fixx {
+  /* padding-bottom: 100px; */
 }
 
 .img2 {
