@@ -46,11 +46,18 @@ body {
 
 .try {
   border-radius:100%;
-  width:150px;
+  /* width:150px;
   height:150px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center; */
+  margin: auto;
+}
+
+.col {
+  text-align: center;
+  margin: auto;
 }
 
 .try2 {
@@ -64,11 +71,11 @@ body {
 
 
 .pad1 {
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 .pad2 {
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 .middle {
@@ -96,6 +103,8 @@ body {
   flex-wrap: wrap;
 }
 
+
+
 .pic-right {
   width: 200px;
   height: 200px;
@@ -122,7 +131,6 @@ body {
 
 
 .after {
-  text-align: center;
 
 }
 
@@ -181,6 +189,8 @@ Button {
   background-color: #1b1b2f;
   color: #e43f5a;
   font-family: 'Ubuntu', sans-serif;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .img {
@@ -212,4 +222,13 @@ Button {
 
 .ins a{
   color: inherit;
+}
+
+.cent {
+  text-align: center;
+  margin: auto;
+}
+
+.rwd {
+  padding-top: 50px;
 }
